@@ -38,11 +38,7 @@ user can drag/drog a page or widget of any of the available table
 
 ## Widget
 
-inspired from https://jsonforms.io/
-
 Widget are react components with data and action as props
-
-see: https://jsonforms.io/docs/tutorial/custom-renderers
 
 1. Schema: provides data and actions
    1. Data in: props.data can be used to templatize the widget
