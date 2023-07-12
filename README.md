@@ -58,4 +58,13 @@ UI Schema is similar to jsonforms.io
 
 - Takes tableData from DB table as prop
 - Takes setTableData from DB table as prop
--
+- For each element/field in the schema of the tableData, there could be multiple UX choices.
+  - For Ex: Gender: Male/Female can be a radio button group or a toggle button
+- Create at least one choice for each field type
+- Select a default UX choice
+- users can pick from multiple UX choices
+- users can pick different UI Schema from a finite list of choices
+- by default, show all form fields in vertical layout
+- maintain data object to keep track of all the form inputs
+- onSubmit call setTableData to update the table
+- More than one actions are possible, for eg: SaveAndConitnue, SaveAndQuit
