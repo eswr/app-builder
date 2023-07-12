@@ -67,4 +67,6 @@ UI Schema is similar to jsonforms.io
 - by default, show all form fields in vertical layout
 - maintain data object to keep track of all the form inputs
 - onSubmit call setTableData to update the table
-- More than one actions are possible, for eg: SaveAndConitnue, SaveAndQuit
+- More than one actions are possible, for eg:
+  - SaveAndConitnue: call setTableData with a partial of the data to update the DB Modal
+  - SaveAndQuit: call setTableData with a partial of the data to update the DB Modal and route to an external page
