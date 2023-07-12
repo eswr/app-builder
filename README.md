@@ -35,3 +35,27 @@ user can drag/drog a page or widget of any of the available table
 - crud widgets: table, pagination list, create and new form, details section
 
   - Can hide/show remove/add edit/non-edit each field
+
+## Widget
+
+inspired from https://jsonforms.io/
+
+Widget are react components with data and action as props
+
+see: https://jsonforms.io/docs/tutorial/custom-renderers
+
+1. Schema: provides data and actions
+   1. Data in: props.data can be used to templatize the widget
+   2. Data out: props.actions can trigger modal update
+2. UI Schema: Widget's Internal state can be divided into:
+   1. Controls
+   2. Layouts
+   3. Rules
+
+UI Schema is similar to jsonforms.io
+
+#### Form Widget Example
+
+- Takes tableData from DB table as prop
+- Takes setTableData from DB table as prop
+-
